@@ -1,0 +1,9 @@
+project: demo_repo
+registry: data/registry.db
+provider: local
+online_store:
+  type: redis
+  connection_string: "localhost:6379,db=0"
+offline_store:
+  type: file
+  path: data

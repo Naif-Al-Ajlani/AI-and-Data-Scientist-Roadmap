@@ -1,0 +1,24 @@
+version: 1
+dataset: demo_binary
+primary_key: id
+timestamp: ts
+features:
+  - name: f0
+    dtype: float
+  - name: f1
+    dtype: float
+  - name: f2
+    dtype: float
+  - name: f3
+    dtype: float
+  - name: f4
+    dtype: float
+  - name: f5
+    dtype: float
+  - name: f6
+    dtype: float
+  - name: f7
+    dtype: float
+label:
+  name: label
+  dtype: int
